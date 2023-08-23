@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPMPBdHeu4hJZteb3tKSi5o",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/GeraldHufana/58002_OOP/blob/main/PRCTICE%20PROBLEM\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "test_score = [26, 49, 98, 87, 62, 75]\n",
+        "total = 0\n",
+        "for score in test_score:\n",
+        "  if score % 2 == 0:\n",
+        "    total += score\n",
+        "print(\"The total score of even numbers: \", total)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UZ_cQo4B2lAW",
+        "outputId": "2235bb91-51a9-4c31-e9dd-eedf20529ded"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The total score of even numbers:  186\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
